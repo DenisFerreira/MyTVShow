@@ -1,0 +1,137 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.denis.mytvshow.ui.SerieDetailFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="52dp">
+
+            <TextView
+                android:id="@+id/rating_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/number_of_seasons_detail"
+                app:layout_constraintTop_toBottomOf="@+id/number_of_seasons_detail"
+                tools:text="##" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_today_black_24dp"
+                app:layout_constraintBottom_toTopOf="@+id/date_detail"
+                app:layout_constraintStart_toEndOf="@+id/date_detail"
+                app:layout_constraintTop_toBottomOf="@+id/date_detail"
+                android:contentDescription="@string/calendar_image"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_star_black_24dp"
+                app:layout_constraintBottom_toTopOf="@+id/rating_detail"
+                app:layout_constraintStart_toEndOf="@+id/rating_detail"
+                app:layout_constraintTop_toBottomOf="@+id/rating_detail"
+                android:contentDescription="@string/rating_star_image"/>
+
+            <TextView
+                android:id="@+id/description_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="textStart"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner_detail"
+                tools:text="Test" />
+
+            <ImageView
+                android:id="@+id/banner_detail"
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_slider"
+                app:srcCompat="@android:drawable/ic_menu_report_image"
+                android:contentDescription="@string/serie_banner"/>
+
+            <TextView
+                android:id="@+id/date_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                app:layout_constraintStart_toStartOf="@+id/name_detail"
+                app:layout_constraintTop_toBottomOf="@+id/name_detail" />
+
+            <TextView
+                android:id="@+id/number_of_seasons_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                app:layout_constraintStart_toStartOf="@+id/date_detail"
+                app:layout_constraintTop_toBottomOf="@+id/date_detail" />
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/image_slider"
+                android:layout_width="wrap_content"
+                android:layout_height="340dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/slider_for_serie_backdrop">
+
+            </com.daimajia.slider.library.SliderLayout>
+
+            <TextView
+                android:id="@+id/name_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/banner_detail"
+                app:layout_constraintTop_toTopOf="@+id/banner_detail" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:layout_width="@dimen/progressBarDimension"
+        android:layout_height="@dimen/progressBarDimension"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="gone"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

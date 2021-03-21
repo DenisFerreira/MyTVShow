@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "58059018942",
+    "firebase_url": "https://mytvshow-b6e6c.firebaseio.com",
+    "project_id": "mytvshow-b6e6c",
+    "storage_bucket": "mytvshow-b6e6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58059018942:android:f10819d641acd8e2",
+        "android_client_info": {
+          "package_name": "com.ferreira.denis.mytvshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58059018942-41psanef8hdd41ae7v3sm5j45r3spu1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferreira.denis.mytvshow",
+            "certificate_hash": "7758be714b0d4b07ec2114846c6e2b19936ded99"
+          }
+        },
+        {
+          "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mAXFNQ-J-tXdzzaAawA6SPSESyqi94c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58059018942:android:709ba5604e24c7ae",
+        "android_client_info": {
+          "package_name": "com.ferreira.denis.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58059018942-23ah7tleqpv1vdas5t4c41lpjdbqgaf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferreira.denis.myapplication",
+            "certificate_hash": "7758be714b0d4b07ec2114846c6e2b19936ded99"
+          }
+        },
+        {
+          "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mAXFNQ-J-tXdzzaAawA6SPSESyqi94c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58059018942:android:88fa8fef2b1ac931",
+        "android_client_info": {
+          "package_name": "com.example.denis.mytvshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58059018942-aggtj88nh32qg3ssa4a73aih2atdqgns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denis.mytvshow",
+            "certificate_hash": "7758be714b0d4b07ec2114846c6e2b19936ded99"
+          }
+        },
+        {
+          "client_id": "58059018942-124o9hhr3ksfpotkle0q9g9thttof4gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denis.mytvshow",
+            "certificate_hash": "7e1c5a8fbb33351bb384cb0110de3fb0574db342"
+          }
+        },
+        {
+          "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mAXFNQ-J-tXdzzaAawA6SPSESyqi94c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58059018942-mg9p4hci5agnkd5eq80vpe0qdkjdkml5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
